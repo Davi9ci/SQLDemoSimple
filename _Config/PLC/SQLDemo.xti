@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4026.22" ClassName="CNestedPlcProjDef">
-	<Project GUID="{9078F47E-B7B7-4206-B6CA-2568D3D3675C}" Name="SQLDemo" PrjFilePath="..\..\SQLDemo\SQLDemo.plcproj" TmcFilePath="..\..\SQLDemo\SQLDemo.tmc" ReloadTmc="true" AmsPort="852" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance File="SQLDemo Instance.xti"/>
-	</Project>
-</TcSmItem>
