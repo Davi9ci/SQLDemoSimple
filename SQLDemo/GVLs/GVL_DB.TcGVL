@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.18">
+  <GVL Name="GVL_DB" Id="{df32b782-ecde-4501-a40b-fb67d385c688}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL CONSTANT
+  // Must match the hDBID configured in the TwinCAT Database Server (TF6420)
+  DB_ID           : UDINT := 1;
+  C_MaxSelectRows : UDINT := 1000;
+END_VAR
+VAR_GLOBAL
+  arrResults   : ARRAY[1..1000] OF ST_DbRecord;
+  nResultCount : UDINT;
+  bWriteError  : BOOL;
+END_VAR
+]]></Declaration>
+  </GVL>
+</TcPlcObject>
